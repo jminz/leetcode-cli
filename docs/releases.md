@@ -2,6 +2,32 @@
 layout: default
 title: Release Notes
 ---
+# 2.6.1
+* `submit`
+    * fixes 500 error on windows.
+
+# 2.6.0
+* build all-in-one binary for linux/macos/windows.
+* `show`
+    * support customized filename.
+    * use "--" as comment in sql file.
+* `list`
+    * fixes format issue.
+* fixes UT failures on windows.
+
+# 2.5.4
+* fixes error in fresh env without .lc existed.
+* embed meta in file content instead of file name.
+* update dependencies.
+
+# 2.5.3
+
+* fixes "Failed to load locked problem" issue.
+* move plugin's data into separate folders:
+  * login info
+  * problems list
+  * problem cache
+
 # 2.5.2
 
 * `show`
